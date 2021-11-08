@@ -1,21 +1,14 @@
+import { createConnection } from 'typeorm';
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { DatabaseModule } from './database.module';
+import { UserModule } from './user/user.module';
 
 @Module({
-  imports: [TypeOrmModule.forRoot({
-    type: "postgres",
-    host: "localhost",
-    port: 5432,
-    username: "postgres",
-    password: "daimoku.",
-    database: "postgres",
-    autoLoadEntities: true,
-    synchronize: true
-
-  })],
+  imports: [UserModule],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService, DatabaseModule],
 })
 export class AppModule {}
