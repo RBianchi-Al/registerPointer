@@ -1629,12 +1629,12 @@ cjs-module-lexer@^1.0.0:
 
 class-transformer@^0.4.0:
   version "0.4.0"
-  resolved "https://registry.npmjs.org/class-transformer/-/class-transformer-0.4.0.tgz"
+  resolved "https://registry.yarnpkg.com/class-transformer/-/class-transformer-0.4.0.tgz#b52144117b423c516afb44cc1c76dbad31c2165b"
   integrity sha512-ETWD/H2TbWbKEi7m9N4Km5+cw1hNcqJSxlSYhsLsNjQzWWiZIYA1zafxpK9PwVfaZ6AqR5rrjPVUBGESm5tQUA==
 
 class-validator@^0.13.1:
   version "0.13.1"
-  resolved "https://registry.npmjs.org/class-validator/-/class-validator-0.13.1.tgz"
+  resolved "https://registry.yarnpkg.com/class-validator/-/class-validator-0.13.1.tgz#381b2001ee6b9e05afd133671fbdf760da7dec67"
   integrity sha512-zWIeYFhUitvAHBwNhDdCRK09hWx+P0HUwFE8US8/CxFpMVzkUK8RJl7yOIE+BVu2lxyPNgeOaFv78tLE47jBIg==
   dependencies:
     "@types/validator" "^13.1.3"
@@ -4920,10 +4920,10 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeorm@^0.2.39:
-  version "0.2.39"
-  resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.2.39.tgz#4d22fc68d114b2ca88a8d7b064f31af15e836ade"
-  integrity sha512-yQdvDpmmmn8wp1We25V76KIBPYR/lDbymNbGC++Uq8mSRhpHIPnlg26VAT4CF6Ypqx72zn8eqr+/72uSo7HdJQ==
+typeorm@^0.2.40:
+  version "0.2.40"
+  resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.2.40.tgz#5a5168b9ad4f01b539c9a09a9fbdb65631928b32"
+  integrity sha512-F1WQKFl3opokSBNxUdX68uhD1Hpk8mgigsLtJKluI7YRs52+tsHNuaO5gLSzvjYZoLqnYc6pomsCYZMRUT2zxA==
   dependencies:
     "@sqltools/formatter" "^1.2.2"
     app-root-path "^3.0.0"
